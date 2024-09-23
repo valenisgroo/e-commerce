@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --black: #000000;
+    --text:#fafafa;
+    --text-secundary:#7d7d7d;
+    --progress:#f0f0ef;
+    --red:#bd4d42;
+    
+    --font-family: "DM Sans", sans-serif;
+    --font-weight: <weight>;
+    --font-style: normal;
+}
+
+.checkout{
+    background-color: var(--text);
+}
+
+.container-checkout{
+    margin: 0 50px 0 50px;
+}
+
+.icon-link{
+    text-decoration: none;
+}
+
+a{
+    color: var(--black);
+}
+
+.required{
+    color: var(--red);
+}
+
+.radio:checked[type=radio] {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='2' fill='#bd4d42'/></svg>");
+    border-color: var(--text-secundary);
+}
+
+.form-check-input:checked {
+    background-color: var(--red);
+    border-color: var(--text-secundary);
+}
+
+.btn-pagar{
+    background-color: var(--black);
+    color: var(--text);
+    border-radius: 0;
+}
+
+
+
+/* CARD */
+.card{
+    border: none;
+}
+
+.botella{
+    width: 100px;
+    height: 150px;
+    background-color: var(--progress);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
